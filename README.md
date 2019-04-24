@@ -25,15 +25,15 @@ This project is designed to convert decision trees to knowledge bases, test the 
 
 2. Click "Load Video" to specify a video file (.avi or .mov) to extract moving objects in the video.
 
-    -a) If it is the first time trying to analyze the video, it will compute and generate background image first and save that image as 
+    - a) If it is the first time trying to analyze the video, it will compute and generate background image first and save that image as 
     "imRef.mat" in the same folder as the video.
     
-    -b) Once the computation is finished, a new figure window showing the first object will pop up and anthor timeline figure window will
+    - b) Once the computation is finished, a new figure window showing the first object will pop up and anthor timeline figure window will
     open as well indicating which object is being showed currently.
     
-    -c) Click "Previous Frame", "Next Frame", "Jump Prev 30 Frames" or "Jump Next 30 Frames" to swith objects without labeling.
+    - c) Click "Previous Frame", "Next Frame", "Jump Prev 30 Frames" or "Jump Next 30 Frames" to swith objects without labeling.
     
-    -d) Click any of "Mark As Car", "Mark As Bus", "Mark As Truck", "Mark As Others" and "Mark As Zero" to label the current object.
+    - d) Click any of "Mark As Car", "Mark As Bus", "Mark As Truck", "Mark As Others" and "Mark As Zero" to label the current object.
     
 3. After labeling is finished, click the "Save To Data File" to save all labeled objects to a data file specified by you.
 
@@ -41,13 +41,13 @@ This project is designed to convert decision trees to knowledge bases, test the 
 
 5. Click "Combine All Data File" to choose that data folder and the program will combine all single data files into one mega matrix data file "dataMatrix.mat" in the following format:
 
-    -example01_Label, example01_Freature01, example01_Freature02, example01_Freature03, ..., example01_Freature12 
+    - example01_Label, example01_Freature01, example01_Freature02, example01_Freature03, ..., example01_Freature12 
     
-    -example02_Label, example02_Freature01, example02_Freature02, example02_Freature03, ..., example02_Freature12 
+    - example02_Label, example02_Freature01, example02_Freature02, example02_Freature03, ..., example02_Freature12 
     
-    -example03_Label, example03_Freature01, example03_Freature02, example03_Freature03, ..., example03_Freature12
+    - example03_Label, example03_Freature01, example03_Freature02, example03_Freature03, ..., example03_Freature12
     
-    -...
+    - ...
 
 6. The combined data set will be seperated into two part: one training data set using 4/5 of all data set picked randomly and one testing data set using the remaining 1/5 of all data set
     
@@ -76,7 +76,7 @@ This project is designed to convert decision trees to knowledge bases, test the 
 ## Data Set
 
 1.The default data set uses 
--1333 examples with 666 cars, 333 buses and 333 trucks as the training data set
--300 examples with 100 cars, 100 buses and 100 trucks as the testing data set
+- 1333 examples with 666 cars, 333 buses and 333 trucks as the training data set
+- 300 examples with 100 cars, 100 buses and 100 trucks as the testing data set
 
 2. There are several other data sets provided in the "TestData".
