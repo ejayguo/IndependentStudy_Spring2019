@@ -20,7 +20,7 @@ This project is designed to convert decision trees to knowledge bases, test the 
 
 5. Use KB_Nils to predict examples from the testing set and compare the accuracy from decision tree and knowledge base using BR_KB_Jacobian.
 
-## Label Marker
+### Label Marker
 1. Open the folder "[1] Feature_Extraction" and run "LabelMarker.m" using Matlab.
 
 2. Click "Load Video" to specify a video file (.avi or .mov) to extract moving objects in the video.
@@ -51,29 +51,29 @@ This project is designed to convert decision trees to knowledge bases, test the 
 
 6. The combined data set will be seperated into two part: one training data set using 4/5 of all data set picked randomly and one testing data set using the remaining 1/5 of all data set
     
-## NormalDistributeAnalysis(NDA)
+### NormalDistributeAnalysis(NDA)
 1. Copy and Paste the previous matrix data file "dataMatrix.mat" into the "[2] NDA" folder.
 
 2. Run the "NDA_Main_Loader.m" using the Matlab and the integer data file will be saved as "dataMatrix_Converted.mat" in the NDA folder.
 
-## DecisionTree
+### DecisionTree
 1. Copy and Paste the previous converted data file "dataMatrix_Converted.mat" into the "[3] DecisionTree" folder.
 
 2. Run the "DT_Main_Driver.m" and the decision tree will be generated using the training set and be saved as "DecisionTree.mat" in the same folder.
 
-## DecisionTree_To_KnowledgeBase
+### DecisionTree_To_KnowledgeBase
 1. Copy and Paste the previous converted data file "dataMatrix_Converted.mat" and the decision tree "DecisionTree.mat" into the "[4] DecisionTree_To_KnowledgeBase" folder.
 
 2. Run the "DT_KB_Main_Loader.m" and the knowledge base will be generated using the training set and be saved as "KnowledgeBase.mat" in the same folder.
 
-## KB_Nils
+### KB_Nils
 1. Copy and Paste the previous converted data file "dataMatrix_Converted.mat" and the knowledge base "KnowledgeBase.mat" into the "[5] KB_Nils" folder.
 
 2. Set a breakpoint at the end of the "KB_Nils_Main_Loader.m" and Run the "KB_Nils_Main_Loader.m". 
 
 3. The accuracy of the decision tree and the accuracy of the knowledge base will be calculated and displayed in the Matlab.
 
-# Data Set
+## Data Set
 
 1.The default data set uses 
 -1333 examples with 666 cars, 333 buses and 333 trucks as the training data set
