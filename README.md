@@ -76,8 +76,8 @@ This project is designed to convert decision trees to knowledge bases, test the 
 ## Data Set
 
 1.The default data set uses
-- 1333 examples with 666 cars, 333 buses and 333 trucks as the training data set
-- 300 examples with 100 cars, 100 buses and 100 trucks as the testing data set
+    - 1333 examples with 666 cars, 333 buses and 333 trucks as the training data set
+    - 300 examples with 100 cars, 100 buses and 100 trucks as the testing data set
 
 
 
