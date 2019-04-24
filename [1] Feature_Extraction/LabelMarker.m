@@ -611,24 +611,24 @@ function CombineAllDataFile_Callback(hObject, eventdata, handles)
     Num01_5 = int32(Num01/5);
     sizeTrain01 = Num01_5*4;
     sizeDev01 = 1;
-%     sizeTest01 = Num01 - sizeTrain01 - sizeDev01;
-    sizeTest01 = 100;
+    sizeTest01 = Num01 - sizeTrain01 - sizeDev01;
+%     sizeTest01 = 100;
     
     setData02 = setData(setData(:,1) == 2, :);
     [Num02,~] = size(setData02);
     Num02_5 = int32(Num02/5);
     sizeTrain02 = Num02_5*4;
     sizeDev02 = 1;
-%     sizeTest02 = Num02 - sizeTrain02 - sizeDev02;
-    sizeTest02 = 100;
+    sizeTest02 = Num02 - sizeTrain02 - sizeDev02;
+%     sizeTest02 = 100;
     
     setData03 = setData(setData(:,1) == 3, :);
     [Num03,~] = size(setData03);
     Num03_5 = int32(Num03/5);
     sizeTrain03 = Num03_5*4;
     sizeDev03 = 1;
-%     sizeTest03 = Num03 - sizeTrain03 - sizeDev03;
-    sizeTest03 = 100;
+    sizeTest03 = Num03 - sizeTrain03 - sizeDev03;
+%     sizeTest03 = 100;
     
     setData04 = setData(setData(:,1) == 4, :);
     
