@@ -41,11 +41,11 @@ This project is designed to convert decision trees to knowledge bases, test the 
 
 5. Click "Combine All Data File" to choose that data folder and the program will combine all single data files into one mega matrix data file "dataMatrix.mat" in the following format:
 
-    -example01_Label, example01_Freature01, example01_Freature02, example01_Freature03, example01_Freature04, ..., example01_Freature12 
+    -example01_Label, example01_Freature01, example01_Freature02, example01_Freature03, ..., example01_Freature12 
     
-    -example02_Label, example02_Freature01, example02_Freature02, example02_Freature03, example02_Freature04, ..., example02_Freature12 
+    -example02_Label, example02_Freature01, example02_Freature02, example02_Freature03, ..., example02_Freature12 
     
-    -example03_Label, example03_Freature01, example03_Freature02, example03_Freature03, example03_Freature04, ..., example03_Freature12
+    -example03_Label, example03_Freature01, example03_Freature02, example03_Freature03, ..., example03_Freature12
     
     -...
 
